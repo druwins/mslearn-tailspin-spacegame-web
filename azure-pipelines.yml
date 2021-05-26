@@ -1,10 +1,7 @@
 trigger:
 - '*'
 
-pool: 'Azure Pipelines'
-  vmImage: 'ubuntu-latest'
-  demands:
-  - npm
+pool: 'default'
 
 variables:
   buildConfiguration: 'Release'
